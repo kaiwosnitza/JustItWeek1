@@ -1,26 +1,38 @@
-
-
+/*---------------------------------------------------------------------
+                        MOBILE DEFAULT STYLES - GLOBAL STYLES
+---------------------------------------------------------------------*/
 
 img, video {
     width: 100%;
 }
 
-
-.topP {
-    text-align: right;
-    margin-right: 5%;
-    z-index: 110;
+body {
+    font-family: roboto;
 }
 
-.topSrc {
-    margin: 5px;
-    z-index: 150;
-    
+li {
+    list-style: none;
 }
 
-.topBtn {
-    float: right;
-    z-index: 110;
+/*---------------------------------------------------------------------
+                                NAV STYLES
+---------------------------------------------------------------------*/
+
+header {
+    position: fixed;
+    width: 100%;
+}
+
+.bgimg {
+    position: relative;
+    background-image: url(../img/bgimg.jpg); 
+    background-repeat: no-repeat;
+    background-position: center 0;
+    background-size: cover;
+    width: 100%;
+    min-height: 40vh;
+    height: 600px;
+    border-bottom: 15px solid rgba(53, 38, 80, 0.8);
 }
 
 .logoC {
@@ -28,39 +40,21 @@ img, video {
     left: 40px;
     width: 100px;
     z-index: 110;
-
-}
-
-.bgimg {
-    z-index: -1;
 }
 
 .navC {
     color: navy;
     height: auto;
-    background-color: white;
-    position: absolute;
-    border-bottom: 2px solid rgba(194, 166, 255, 0.2);
-    z-index: -100;
+    /*background-color: white;*/
+    background-color: red;
+    position: relative;
+/*    border-bottom: 1px solid rgba(94, 165, 223, 1);*/
+    /*z-index: -1;*/
     top: 0;
+    left: 0;
+    /*width: 100%;*/
 }
 
-nav li a, nav li {
-    color: blue;    
-    opacity: 1;
-    width: 100%;
-    margin: 0%;
-    padding: 0%;
-    float: none;
-    display: block;
-    outline-style: none !important;
-    text-decoration: none;
-    border-top: 1px solid navy;
-    text-align: right;
-    }
-    
-    
-    /*&#9776; this is the code for 3 bar menu*/
 .navBtn  {
     font-size: 4em;
     display: block;
@@ -72,5 +66,123 @@ nav li a, nav li {
     background-color: white;
 }
 
+nav li a, nav li {
+    color: white;    
+    opacity: 1;
+    width: 100%;
+    margin: 0%;
+    margin-right: 20%;
+    padding: 0%;
+    float: none;
+    display: block;
+    outline-style: none !important;
+    text-decoration: none;
+    border-top: 1px solid rgba(94, 165, 223, 1);
+    text-align: right;
+}
+
+nav ul {
+    padding: 2%;
+}
+
+.search {
+    position: absolute;
+    top: 20px;
+    left: 200px;
+    z-index: 20;
+    background-color: green;
+    width: 200px;
+}
+
+.searchText {
+/*    visibility: hidden;*/
+}
+
+.searchBox {
+}
+
+.searchSub {
+}
+
+.slogan {
+    color: white;
+    background-color: rgba(13, 59, 82, 0.7);
+    padding: 2%;
+    display: inline-block;
+    margin-top: 70%;
+    z-index: 30;
+    float: right;
+}
+    
+/*---------------------------------------------------------------------
+                            SECTION A STYLES
+---------------------------------------------------------------------*/
+
+h1 {
+    color: white;
+    background-color: rgba(13, 59, 82, 1);
+    padding: 1%;
+    text-align: center;
+}
+
+.area div {
+    color: rgba(89, 124, 155, 1);
+    text-align: center;
+    padding: 1%;
+}
+
+.secArticle div {
+    color: rgba(89, 124, 155, 1);
+    text-align: center;
+}
+
+.secArticle p {
+    color: black;
+}
+
+.secAnc {
+    text-align: right !important;
+}
+
+.quickContact {
+    text-align: right;
+}
 
 
+/*---------------------------------------------------------------------
+                            SECTION B STYLES
+---------------------------------------------------------------------*/
+
+h2 {
+    color: rgba(13, 59, 82, 1);
+}
+
+.welcome {
+    background-color: rgba(184, 210, 238, 1);
+    text-align: center;
+}
+
+/*---------------------------------------------------------------------
+                            SECTION C STYLES
+---------------------------------------------------------------------*/
+
+h3 {
+}
+
+.sitemap {
+    color: white;
+    background-color: rgba(51, 51, 51, 1);
+}
+
+.sitemap ul {
+    color: rgba(51, 112, 169, 1);
+}
+  
+.sitemap li {
+    border-bottom: 1px solid rgba(135, 126, 55, 1);
+    margin-right: 5%;
+}    
+    
+    
+    
+    
